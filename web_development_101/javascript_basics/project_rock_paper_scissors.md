@@ -1454,3 +1454,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Takuya's Solution](https://github.com/TakuyaToyokawa/2-Rock-Paper-Scissors) - [View in Browser](https://takuyatoyokawa.github.io/2-Rock-Paper-Scissors/)
 - [msespos's Solution](https://github.com/msespos/rock-paper-scissors) - [View in Browser](https://msespos.github.io/rock-paper-scissors/)
 </details>
+- [VetsPlaybook's Solution](https://github.com/VetsPlaybook/TOP_Rock-Paper-Scissors) - [View in Browser] (https://VetsPlaybook.github.io/TOP_Rock-Paper-Scissors)
