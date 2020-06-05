@@ -54,6 +54,7 @@ In fact - the function `isGameOver` shouldn't be calling the DOM function anyway
 1. Read [This Article](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/).
 2. [This article](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
 3. ..and [one more](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure
+4. This video is a great resource for visual learners. It is a full free course on Object Oriented Programming. (https://www.youtube.com/watch?v=PFmuCDHHpwk).
 
 
 
