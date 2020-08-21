@@ -298,10 +298,23 @@ Once it's installed you need to require it at the top of your app.js and then we
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ~~~javascript
-bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
-  // if err, do something
-  // otherwise, store hashedPassword in DB
-});
+bcrypt.genSalt(10, (err, salt) => 
+        bcrypt.hash(user.password, salt, (err, hash) =>{
+        // if error, do something
+        if(err) throw err;
+        
+        // hash the newly created user's password
+        user.password = hash;
+
+        //save it to our database
+        user.save(err => {
+        if (err) { 
+            return next(err);
+        };
+        res.redirect("/");
+        });
+    }));
+  });
 ~~~
 
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right your password should have been transformed into a really long random string.
