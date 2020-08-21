@@ -17,6 +17,8 @@ A more robust option is the package [nconf](https://github.com/indexzero/nconf).
 
 Digging into this package can be useful when creating bigger projects where app configuration needs to be a little more involved. This package makes it easy to configure things such as separate production and development databases, logging and debugging options or anything else.
 
+This video provides an excellent tutorial on how to utilize dotenv and gitignore: https://www.youtube.com/watch?v=17UVejOw3zA
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
